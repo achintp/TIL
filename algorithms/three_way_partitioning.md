@@ -10,7 +10,7 @@ void three_way_partition(vector<int>& nums, int median){
     int i = 0;
     int j = 0;
 
-    while(j < sz){
+    while(j <= sz){
         if(nums[j] > med){
             swap(nums[i++], nums[j++]);
             continue;
